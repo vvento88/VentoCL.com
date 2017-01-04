@@ -8,4 +8,10 @@ function VentoCL_resources(){
 
 add_action('wp_enqueue_scripts', 'VentoCL_resources');
 
+// Navigation Menu
+register_nav_menus(array(
+  'primary' => __( 'Primary Menu'),
+  'footer' => __('Footer Menu'),
+));
+
 ?>
