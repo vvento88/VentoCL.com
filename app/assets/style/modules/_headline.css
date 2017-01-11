@@ -1,0 +1,22 @@
+.headline {
+  font-weight: 300;
+  font-size: 2.875rem;
+  color: $mainGrey;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--medium {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: $mainBlue;
+  }
+
+  &--small {
+    color: $mainBlue;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+}
