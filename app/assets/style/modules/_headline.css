@@ -1,8 +1,7 @@
 .headline {
-  font-weight: 300;
   font-size: 1.75rem;
-  color: $mainGrey;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+  color: $mainWhite;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 
     @mixin atSmall {
       font-size: 2.25rem;
@@ -12,42 +11,46 @@
       font-size: 2.875rem;
     }
 
+ /* Begin Modifier Styling */
   &--centered {
     text-align: center;
   }
 
   &--medium {
-    color: $mainBlue;
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 1.4rem;
+    font-weight: light;
 
     @mixin atSmall {
-      font-size: 1.75rem;
+      font-size: 1.875rem;
     }
 
     @mixin atMedium {
       font-size: 2.25rem;
     }
+
   }
 
   &--small {
-    color: $mainBlue;
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 300;
 
     @mixin atSmall {
       font-size: 1.5rem;
     }
-  }
 
-  &__description {
-    font-size: .9rem;
-    line-height: 1.5em;
-    font-weight: 400;
-    color: $mainBlue;
-
-    &mixin atSmall {
-      font-size: 1.25rem;
+    @mixin atMedium {
+      font-size: 2rem;
     }
   }
+
+  &--blue {
+    color: $mainBlue;
+  }
+
+
+
+  &--lightBlue {
+    color: $lightBlue;
+  }
+
 }
