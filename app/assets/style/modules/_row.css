@@ -1,0 +1,24 @@
+.row {
+  @mixin clearfix;
+
+/* Begin modifier styling */
+  &--gutters {
+    margin-right: -4rem;
+  }
+
+  &--gutters > div {
+    padding-right: 4rem;
+  }
+
+  &__12{
+    float: left;
+    width: 100%;
+  }
+
+  @mixin atMedium{
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+  }
+}
