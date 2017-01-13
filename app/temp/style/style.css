@@ -601,6 +601,7 @@ img {
 .page-section {
   padding: 1.2rem 0;
   text-align: center;
+
 }
 
 @media (min-width: 800px) {
@@ -656,16 +657,16 @@ img {
   padding-right: 4rem;
 }
 
-.row__12{
-  float: left;
-  width: 100%;
-}
-
 @media (min-width: 800px) {
 
   .row__medium-6 {
     float: left;
     width: 50%;
+  }
+
+  .row__medium-6__medium-12 {
+    float: left;
+    width: 100%;
   }
 }
 
@@ -692,6 +693,8 @@ img {
 @media (min-width: 530px) {
 
   .section-title__icon {
+    position: relative;
+    top: 8px;
     margin: 0 .5rem 0 0;
     display: inline-block;
   }
@@ -699,4 +702,20 @@ img {
 
 .feature-title {
 
+}
+
+.services {
+  border: 2px solid rgba(255, 255, 255, .4);
+  border-radius: 4px;
+  padding: 0 1.5rem 1px 1.5rem;
+  margin-bottom: .5em;
+}
+
+.services__heading {
+  background-color: rgba(112, 179, 230, .4);
+  border-radius: 32px;
+  overflow: hidden;
+  width: 60px;
+  height: 64px;
+  margin: 0 auto 0 auto;
 }

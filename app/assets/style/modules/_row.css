@@ -10,15 +10,15 @@
     padding-right: 4rem;
   }
 
-  &__12{
-    float: left;
-    width: 100%;
-  }
-
   @mixin atMedium{
     &__medium-6 {
       float: left;
       width: 50%;
+
+    &__medium-12{
+      float: left;
+      width: 100%;
+    }
     }
   }
 }
