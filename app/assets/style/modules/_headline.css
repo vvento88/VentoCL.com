@@ -11,7 +11,11 @@
       font-size: 2.875rem;
     }
 
+<<<<<<< HEAD
  /* Begin Modifier Styling */
+=======
+/* Begin Styling Modifiers*/
+>>>>>>> site-header
   &--centered {
     text-align: center;
   }
@@ -43,7 +47,15 @@
     }
   }
 
+<<<<<<< HEAD
   &--blue {
+=======
+/* Begin Styling Elements */
+  &__description {
+    font-size: .9rem;
+    line-height: 1.5em;
+    font-weight: 400;
+>>>>>>> site-header
     color: $mainBlue;
   }
 
