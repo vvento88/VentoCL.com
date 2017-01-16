@@ -494,13 +494,9 @@ img {
 
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px) {}
 
-}
-
-@media (min-width: 800px) {
-
-}
+@media (min-width: 800px) {}
 
 /* Begin Styling Elements */
 
@@ -733,15 +729,7 @@ img {
   }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* Begin Styling Modifiers */
-=======
 /* Begin Styling Elements */
->>>>>>> gulp-sprite
-=======
-/* Begin Styling Elements */
->>>>>>> gulp-sprite
 
 .section-title__icon {
   display: block;
@@ -758,8 +746,19 @@ img {
   }
 }
 
-.feature-title {
+.feature-title__icon {
+  display: block;
+  margin: 0 auto .6rem auto;
+}
 
+@media (min-width: 530px) {
+
+  .feature-title__icon {
+    position: relative;
+    top: 8px;
+    margin: 0 .5rem 0 0;
+    display: inline-block;
+  }
 }
 
 .services {
@@ -787,8 +786,6 @@ img {
   margin: 0 auto 0 auto;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .primary-nav--pull-right {
   float: right;
 }
@@ -815,9 +812,7 @@ img {
   text-decoration: none;
   font-weight: 300;
 }
-=======
-=======
->>>>>>> gulp-sprite
+
 /* Do Not edit modules/_sprite directly as it is generated automatically by Gulp.
  Instead edit gulp/templates/sprite */
 
@@ -901,7 +896,3 @@ img {
 
     background-position: 56.27198124267292% 47.76119402985075%;
   }
-<<<<<<< HEAD
->>>>>>> gulp-sprite
-=======
->>>>>>> gulp-sprite
