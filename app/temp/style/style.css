@@ -734,7 +734,11 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Begin Styling Modifiers */
+=======
+/* Begin Styling Elements */
+>>>>>>> gulp-sprite
 =======
 /* Begin Styling Elements */
 >>>>>>> gulp-sprite
@@ -784,6 +788,7 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .primary-nav--pull-right {
   float: right;
 }
@@ -811,6 +816,8 @@ img {
   font-weight: 300;
 }
 =======
+=======
+>>>>>>> gulp-sprite
 /* Do Not edit modules/_sprite directly as it is generated automatically by Gulp.
  Instead edit gulp/templates/sprite */
 
@@ -894,4 +901,7 @@ img {
 
     background-position: 56.27198124267292% 47.76119402985075%;
   }
+<<<<<<< HEAD
+>>>>>>> gulp-sprite
+=======
 >>>>>>> gulp-sprite
