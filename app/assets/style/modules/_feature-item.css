@@ -1,0 +1,36 @@
+.feature-item {
+  padding-left: 94px;
+  position: relative;
+
+/* Begin Styling Elements */
+  &__icon {
+    position: absolute;
+    left: 0;
+    display: block;
+    margin: 0 auto .6rem auto;
+
+    @mixin atSmall {
+      position: relative;
+      top: 8px;
+      margin: 0 .5rem 0 0;
+      display: inline-block;
+    }
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    @mixin atSmall {
+      font-size: 1.5rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2rem;
+    }
+  }
+
+  /* Begin Styling Modifiers */
+
+
+}
