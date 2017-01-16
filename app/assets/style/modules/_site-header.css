@@ -4,14 +4,13 @@
   background-color: rgba($mainBlue, .5);
   width: 100%;
   padding: 1rem 0 .5rem 0;
-  margin-top: -1.4525rem;
 
   @mixin atSmall {
-    margin-top: -1.8675rem;
+
   }
 
   @mixin atMedium {
-    margin-top: -2.38625rem;
+
   }
 
 /* Begin Styling Elements */

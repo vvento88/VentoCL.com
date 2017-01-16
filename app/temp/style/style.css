@@ -490,23 +490,16 @@ img {
   background-color: rgba(47,85,114, .5);
   width: 100%;
   padding: 1rem 0 .5rem 0;
-  margin-top: -1.4525rem;
 
 
 }
 
 @media (min-width: 530px) {
 
-  .site-header {
-    margin-top: -1.8675rem;
-  }
 }
 
 @media (min-width: 800px) {
 
-  .site-header {
-    margin-top: -2.38625rem;
-  }
 }
 
 /* Begin Styling Elements */
@@ -565,11 +558,7 @@ img {
   }
 }
 
-<<<<<<< HEAD
-/* Begin Modifier Styling */
-=======
 /* Begin Styling Modifiers*/
->>>>>>> site-header
 
 .headline--centered {
   text-align: center;
@@ -606,7 +595,6 @@ img {
   }
 }
 
-<<<<<<< HEAD
 @media (min-width: 800px) {
 
   .headline--small {
@@ -614,20 +602,23 @@ img {
   }
 }
 
+/* Begin Styling Modifiers */
+
 .headline--blue {
-=======
+  color: #2f5572;
+}
+
+.headline--lightBlue {
+  color: #70b3e6;
+}
+
 /* Begin Styling Elements */
 
 .headline__description {
   font-size: .9rem;
   line-height: 1.5em;
   font-weight: 400;
->>>>>>> site-header
   color: #2f5572;
-}
-
-.headline--lightBlue {
-  color: #70b3e6;
 }
 
 .wrapper {
@@ -654,6 +645,13 @@ img {
 
 }
 
+@media (min-width: 530px) {
+
+  .page-section {
+    padding: 3rem 0;
+  }
+}
+
 @media (min-width: 800px) {
 
   .page-section {
@@ -666,7 +664,6 @@ img {
   color: #FFF;
 }
 
-<<<<<<< HEAD
 .generic-content-container{
   max-width: 800px;
   margin-right: auto;
@@ -698,7 +695,7 @@ img {
   display: table;
 }
 
-/* Begin modifier styling */
+/* Begin Styling Modifiers */
 
 .row--gutters {
   margin-right: -4rem;
@@ -736,6 +733,8 @@ img {
   }
 }
 
+/* Begin Styling Modifiers */
+
 .section-title__icon {
   display: block;
   margin: 0 auto .6rem auto;
@@ -762,6 +761,15 @@ img {
   margin-bottom: .5em;
 }
 
+@media (min-width: 530px) {
+
+  .services:hover {
+    scale: ;
+  }
+}
+
+/* Begin Styling Modifiers */
+
 .services__heading {
   background-color: rgba(112, 179, 230, .4);
   border-radius: 32px;
@@ -769,14 +777,21 @@ img {
   width: 60px;
   height: 64px;
   margin: 0 auto 0 auto;
-=======
+}
+
 .primary-nav--pull-right {
   float: right;
 }
 
 .primary-nav ul {
   margin: 0;
-  padding: 0;/*@mixin clearfix; */
+  padding: 0;
+}
+
+.primary-nav ul::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .primary-nav li {
@@ -789,5 +804,4 @@ img {
   color: #FFF;
   text-decoration: none;
   font-weight: 300;
->>>>>>> site-header
 }

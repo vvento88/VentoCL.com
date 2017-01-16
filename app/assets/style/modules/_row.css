@@ -1,7 +1,7 @@
 .row {
   @mixin clearfix;
 
-/* Begin modifier styling */
+/* Begin Styling Modifiers */
   &--gutters {
     margin-right: -4rem;
   }

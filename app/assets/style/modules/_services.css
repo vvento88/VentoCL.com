@@ -4,15 +4,13 @@
   padding: 0 1.5rem 1px 1.5rem;
   margin-bottom: .5em;
 
-<<<<<<< HEAD
-=======
   @mixin atSmall {
     &:hover {
-      scale: 
+      scale: ;
     }
   }
 
->>>>>>> site-header
+  /* Begin Styling Modifiers */
   &__heading {
     background-color: rgba(112, 179, 230, .4);
     border-radius: 32px;
