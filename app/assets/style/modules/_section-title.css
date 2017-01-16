@@ -9,7 +9,8 @@
     font-size: 3.75rem;
   }
 
-/* Begin Styling Modifiers */
+
+/* Begin Styling Elements */
   &__icon {
     display: block;
     margin: 0 auto .6rem auto;
