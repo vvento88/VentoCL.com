@@ -3,11 +3,19 @@
 
 /* Begin Styling Modifiers */
   &--gutters {
-    margin-right: -4rem;
+    margin-right: -65px;
+  }
+
+  &--gutters-large {
+    margin-right: -100px;
   }
 
   &--gutters > div {
-    padding-right: 4rem;
+    padding-right: 65px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px
   }
 
   @mixin atMedium{

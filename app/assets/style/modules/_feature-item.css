@@ -1,13 +1,18 @@
 .feature-item {
-  padding-left: 94px;
   position: relative;
+  padding-bottom: 2.5rem;
+
+  @mixin atSmall {
+    padding-left: 24px;
+  }
+
+/* Begin Styling Modifiers */
+
 
 /* Begin Styling Elements */
   &__icon {
-    position: absolute;
-    left: 0;
     display: block;
-    margin: 0 auto .6rem auto;
+    margin: 0 auto;
 
     @mixin atSmall {
       position: relative;
@@ -18,11 +23,13 @@
   }
 
   &__title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 300;
+    margin-top: .7em;
+    margin-bottom: .8rem;
 
     @mixin atSmall {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
 
     @mixin atMedium {
