@@ -34,11 +34,11 @@
   &--equal-height-at-medium {
     @mixin atMedium {
       display: flex;
-    }
 
-    & > p {
-      float: none;
-      display: flex;
+      & > p {
+        float: none;
+        display: flex;
+      }
     }
   }
 }

@@ -1,17 +1,18 @@
 .page-section {
-  padding: 1.2rem 0;
+  padding: .25rem 0;
   text-align: center;
   margin-bottom: 1.25rem;
 
 @mixin atSmall {
-  padding: 3rem 0;
+  padding: .5rem 0;
 }
 
 @mixin atMedium {
-  padding: 4.5rem 0;
+  padding: 1rem 0;
 }
 
-  &--blue{
+/* Begin Styling Modifiers */
+  &--blue {
     background-color: $mainBlue;
     color: #FFF;
   }

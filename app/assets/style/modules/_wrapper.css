@@ -6,8 +6,19 @@
   margin-right: auto;
   overflow: hidden;
 
+/* Begin Styling Modifiers */
   &--medium {
     max-width: 976px;
+  }
+
+  &--little-padding-until-small {
+    padding-left: 9px;
+    padding-right: 9px;
+
+    @mixin atSmall {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
   }
 
   .wrapper {
