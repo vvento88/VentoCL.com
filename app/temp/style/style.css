@@ -478,12 +478,18 @@ img {
 
 .site-header {
   position: absolute;
+  top: 0;
   z-index: 2;
-  background-color: rgba(47,85,114, .5);
   width: 100%;
   padding: 10px 0;
 
+}
 
+@media (min-width: 800px) {
+
+  .site-header {
+    background-color: rgba(47,85,114, .5);
+  }
 }
 
 /* Begin Styling Elements */
@@ -492,27 +498,64 @@ img {
   float: right;
 }
 
-/*
-  margin-top: -1.4525rem;
-
-  @mixin atSmall {
-    margin-top: -1.8675rem;
-  }
-
-  @mixin atMedium {
-    margin-top: -2.38625rem;
-  }
-  */
-
 .site-header__logo {
   position: absolute;
   top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) scale(.8);
+          transform: translateX(-50%) scale(.8);
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
   background-color: #2f5572;
   padding: 25px 36px;
 }
 
+@media (min-width: 800px) {
+
+  .site-header__logo {
+    left: auto;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
 .site-header__logo__graphic {
   text-indent: -9999px;
+}
+
+.site-header__menu-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #ff9900;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (min-width: 530px) {
+
+  .site-header__menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .site-header__menu-icon {
+    display: none;
+  }
+}
+
+.site-header__menu-content {
+  display: none;
+}
+
+@media (min-width: 800px) {
+
+  .site-header__menu-content {
+    display: block;
+  }
 }
 
 .btn {
@@ -555,6 +598,11 @@ img {
 }
 
 /* Begin Styling Modifiers*/
+
+.headline--first {
+  padding-top: 60px;
+  margin-bottom: 0;
+}
 
 .headline--centered {
   text-align: center;
@@ -640,13 +688,16 @@ img {
   color: #FFF;
 }
 
+/* Begin Styling Modifiers */
+
 .primary-nav--pull-right {
   float: right;
+  margin: auto 0 auto 0;
 }
 
 .primary-nav ul {
   margin: 0;
-  padding: 0;/*@mixin clearfix; */
+  padding: 0;/* @mixin clearfix; */
 }
 
 .primary-nav li {
@@ -659,5 +710,5 @@ img {
   color: #FFF;
   text-decoration: none;
   font-weight: 300;
-  padding: 5px 0;
+  padding: 12px 0;
 }

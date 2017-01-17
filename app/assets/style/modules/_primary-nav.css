@@ -1,14 +1,15 @@
 .primary-nav {
 
-
+/* Begin Styling Modifiers */
   &--pull-right {
     float: right;
+    margin: auto 0 auto 0;
   }
 
   ul {
     margin: 0;
     padding: 0;
-  /*@mixin clearfix; */
+    /* @mixin clearfix; */
   }
 
   li {
@@ -21,6 +22,6 @@
     color: #FFF;
     text-decoration: none;
     font-weight: 300;
-    padding: 5px 0;
+    padding: 12px 0;
   }
 }
