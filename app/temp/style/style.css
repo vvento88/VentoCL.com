@@ -481,24 +481,9 @@ img {
   z-index: 2;
   background-color: rgba(47,85,114, .5);
   width: 100%;
-  padding: 1rem 0 .5rem 0;
-  margin-top: -1.4525rem;
+  padding: 10px 0;
 
 
-}
-
-@media (min-width: 530px) {
-
-  .site-header {
-    margin-top: -1.8675rem;
-  }
-}
-
-@media (min-width: 800px) {
-
-  .site-header {
-    margin-top: -2.38625rem;
-  }
 }
 
 /* Begin Styling Elements */
@@ -506,6 +491,18 @@ img {
 .site-header__btn-container {
   float: right;
 }
+
+/*
+  margin-top: -1.4525rem;
+
+  @mixin atSmall {
+    margin-top: -1.8675rem;
+  }
+
+  @mixin atMedium {
+    margin-top: -2.38625rem;
+  }
+  */
 
 .site-header__logo {
   position: absolute;
@@ -662,4 +659,5 @@ img {
   color: #FFF;
   text-decoration: none;
   font-weight: 300;
+  padding: 5px 0;
 }
