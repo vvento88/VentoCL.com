@@ -9,11 +9,7 @@
   ul {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
     @mixin clearfix;
-=======
-    /* @mixin clearfix; */
->>>>>>> site-header
   }
 
   li {
