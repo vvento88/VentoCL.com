@@ -32,8 +32,8 @@
 
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#welcome" id='welcome-link'>Welcome</a></li>
+            <li><a href="#services" id="services-link">Services</a></li>
           </ul>
         </nav>
       </div>
@@ -42,7 +42,7 @@
   </header>
 
 <div>
-    <article class="page-section" id="welcome">
+    <article class="page-section" id="welcome" data-matching-link='#welcome-link'>
 
 
       <h2 class="headline headline--first headline--centered headline--blue">Get to know Me</h2>
@@ -91,7 +91,7 @@
       <a class="btn btn--orange btn--large" href="#">Get Started Today</a>
     </section>
 
-    <article id="services" class="page-section page-section--blue">
+    <article id="services" class="page-section page-section--blue" data-matching-link='#services-link'>
 
           <span class="icon icon--star section-title__icon"></span>
           <h2 class="section-title">Services</h2>
