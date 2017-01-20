@@ -6,10 +6,10 @@
   padding: 10px 0;
   transition: background-color .3s ease-out;
 
+/* Begin Styling Modifiers */
   &--is-expanded {
     background-color: rgba($mainBlue, .55);
   }
-
 
   @mixin atMedium {
     position: fixed;
@@ -32,18 +32,18 @@
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%) scale(.9);
+    transform: translateX(-50%) scale(.95);
     transform-origin: 50% 0;
-    background-color: $mainBlue;
-    padding: 25px 36px;
+    padding: 10px 10px;
     transition: all .3s ease-out;
+    border-radius: 10px;
 
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.91);
+        transform: scale(.89);
       }
     }
 

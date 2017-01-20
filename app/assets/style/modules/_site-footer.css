@@ -3,6 +3,7 @@
   color: #FFF;
   padding: .5rem 0;
   text-align: center;
+  margin-top: -1.5rem;
 
 &__text {
   font-weight: 200;

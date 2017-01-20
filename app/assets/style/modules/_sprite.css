@@ -2,82 +2,77 @@
  Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-b6edf3a4.svg');
+      background-image: url('/assets/images/sprites/sprite-85830f4c.svg');
     }
 
   .icon--comment {
     width: 64px;
     height: 64px;
-
-    background-position: 0 42.857142857142854%;
+    background-position: 29.702970297029704% 100%;
   }
 
   .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-
-    background-position: 81.13948053093442% 79.15516083289798%;
+    background-position: 87.42901499366752% 28.810192478936912%;
   }
 
   .icon--fire {
     width: 56px;
     height: 64px;
-
-    background-position: 33.333333333333336% 0;
+    background-position: 30.476190476190474% 48.38709677419355%;
   }
 
   .icon--globe {
     width: 64px;
     height: 64px;
-
-    background-position: 65.21739130434783% 0;
+    background-position: 74.25742574257426% 0;
   }
 
   .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-
-    background-position: 99.63105005097334% 79.15516083289798%;
+    background-position: 95.5399794633689% 57.58613603671484%;
   }
 
   .icon--mail {
     width: 64px;
     height: 48px;
-
-    background-position: 0 0;
+    background-position: 74.25742574257426% 45.714285714285715%;
   }
 
   .icon--rain {
     width: 64px;
     height: 64px;
-
-    background-position: 100% 0;
+    background-position: 0 48.38709677419355%;
   }
 
   .icon--star {
     width: 64px;
     height: 64px;
-
-    background-position: 32.608695652173914% 100%;
+    background-position: 61.386138613861384% 100%;
   }
 
   .icon--twitter {
     width: 51.78px;
     height: 42.06px;
+    background-position: 99.89730183923069% 0;
+  }
 
-    background-position: 93.77229640199776% 47.78258921905331%;
+  .icon--vento-consulting-llc {
+    width: 150px;
+    height: 60px;
+    background-position: 0 0;
   }
 
   .icon--wifi {
     width: 60px;
     height: 64px;
-
     background-position: 0 100%;
   }
 
   .icon--youtube {
     width: 34.75px;
     height: 42px;
-
-    background-position: 56.27198124267292% 47.76119402985075%;
+    background-position: 92.54054054054055% 86.35616438356163%;
   }
