@@ -34,7 +34,7 @@
     left: 50%;
     transform: translateX(-50%) scale(.95);
     transform-origin: 50% 0;
-    padding: 10px 10px;
+    padding: 9px 10px;
     transition: all .3s ease-out;
     border-radius: 10px;
 
@@ -43,7 +43,7 @@
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.89);
+        transform: scale(.88);
       }
     }
 
