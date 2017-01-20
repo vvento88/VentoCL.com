@@ -27,7 +27,7 @@
 
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a class="btn" href="#contact">Get in Touch</a>
+          <a class="btn open-modal" href="#contact">Get in Touch</a>
         </div>
 
         <nav class="primary-nav primary-nav--pull-right">
@@ -62,7 +62,7 @@
                   Results don&rsquo;t happen overnight, none that are lasting that is, so working together
                   to build up your dream and ideas for the world to see is what I specialize in.
                   Let me worry about the technical stuff while you focus on what truly matters&hellip;</br>
-                  <strong><a href="#">Growing Your Business!</a></strong>
+                  <strong><a href="#" class="open-modal">Growing Your Business!</a></strong>
                 </p>
               </div>
         </section>
@@ -88,7 +88,7 @@
     </article>
 
     <section class="wrapper page-section">
-      <a class="btn btn--orange btn--large" href="#">Get Started Today</a>
+      <a class="btn btn--orange btn--large open-modal" href="#">Get Started Today</a>
     </section>
 
     <article id="services" class="page-section page-section--blue" data-matching-link='#services-link'>
@@ -148,9 +148,26 @@
         </section>
     </article>
 
-    <section class="page-section" id="contact">
-      <span>vvento@ventocl.com</span>
-      <span>719.695.0820</span>
+    <section class="modal" id="contact">
+
+      <div class="modal__inner">
+        <div class="wrapper wrapper--narrow">
+
+          <div class="page-section page-section--modal">
+            <span class="icon icon--star section-title__icon"></span>
+            <h2 class="section-title section-title--less-margin">One Click Away</h2>
+          </div>
+
+          <p class="headline headline--blue headline__section-title modal__description">You can reach me through Email or Phone by clicking below</p>
+        </div>
+
+        <div class="contact-icons">
+          <a href="mailto:vvento@ventocl.com" target="_blank" class="contact-icons__icon"><span class="icon icon--mail"></span></a>
+          <a href="tel:+1-719-695-0820" class="contact-icons__icon contact-icons--pull-down"><span class="icon icon--comment"></span></a>
+        </div>
+      </div>
+
+      <div class="modal__close">X</div>
 
     </section>
 
@@ -160,7 +177,7 @@
   <div class="wrapper">
     <p>
       <span class="site-footer__text">Copyright &copy; 2017 Vento Consulting LLC. All rights reserved.</span>
-      <a class="btn btn--orange" href="#">Get in Touch</a>
+      <a class="btn btn--orange open-modal" href="#">Get in Touch</a>
     <p>
   </div>
 </footer>

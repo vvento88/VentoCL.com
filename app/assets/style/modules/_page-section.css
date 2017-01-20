@@ -17,4 +17,14 @@
     color: #FFF;
   }
 
+  &--modal {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: $mainBlue;
+
+    @mixin atSmall {
+      margin-bottom: -1.25rem;
+    }
+  }
+
 }

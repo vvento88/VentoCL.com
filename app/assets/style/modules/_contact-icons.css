@@ -1,0 +1,31 @@
+.contact-icons {
+  text-align: center;
+
+/* Begin Styling modifiers */
+&--pull-down {
+  transform: translateY(7px);
+}
+
+/* Begin Styling Elements */
+  &__icon {
+    /* background-color: $mainOrange; */ /* used for testing and showing styling */
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 5px 5px;
+    width: 25%;
+    height: 72px;
+
+    @mixin atSmall {
+      width: 72px;
+
+    }
+
+    .icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

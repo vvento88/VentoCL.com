@@ -6,6 +6,7 @@
   margin-top: .5em;
 
   @mixin atSmall {
+    text-align: center;
     display: inline-block;
     font-size: 3.75rem;
   }
@@ -15,15 +16,24 @@
       margin-top: 2em;
   }
 
+  &--less-margin {
+    margin-top: 0;
+    margin-bottom: .5rem;
+
+    @mixin atSmall {
+      margin-bottom: 1.3rem;
+    }
+  }
+
 /* Begin Styling Elements */
   &__icon {
     display: block;
     margin: 1rem auto .25rem auto;
 
     @mixin atSmall {
+      display: inline-block;
       margin: -1rem .5rem 0 0;
       padding-bottom: 1em;
-      display: inline-block;
     }
   }
 }
