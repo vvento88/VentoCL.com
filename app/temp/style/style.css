@@ -952,14 +952,14 @@ img {
 
 .section-title__icon {
   display: block;
-  margin: 1rem auto .25rem auto;
+  margin: 1.1rem auto .25rem auto;
 }
 
 @media (min-width: 530px) {
 
   .section-title__icon {
     display: inline-block;
-    margin: -1rem .5rem 0 0;
+    margin: -.6rem .5rem 0 0;
     padding-bottom: 1em;
   }
 }

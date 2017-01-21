@@ -28,11 +28,11 @@
 /* Begin Styling Elements */
   &__icon {
     display: block;
-    margin: 1rem auto .25rem auto;
+    margin: 1.1rem auto .25rem auto;
 
     @mixin atSmall {
       display: inline-block;
-      margin: -1rem .5rem 0 0;
+      margin: -.6rem .5rem 0 0;
       padding-bottom: 1em;
     }
   }
