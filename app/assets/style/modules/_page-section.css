@@ -1,5 +1,5 @@
 .page-section {
-  padding: .25rem 0;
+  padding: .25rem .25rem;
   text-align: center;
   margin-bottom: 1.25rem;
 
@@ -8,7 +8,13 @@
 }
 
 @mixin atMedium {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
+
+  &--get-to-know-me {
+    padding: 0rem 1rem;
+    background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
+    background-size: cover;
+  }
 }
 
 /* Begin Styling Modifiers */
@@ -25,11 +31,6 @@
     @mixin atSmall {
       margin-bottom: -1.25rem;
     }
-  }
-
-  &--get-to-know-me {
-    background-color: #eoe6ef;
-    padding: .25rem 1rem;
   }
 
 }

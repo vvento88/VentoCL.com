@@ -530,23 +530,26 @@ img {
           transform: translateX(-50%) scale(.95);
   -webkit-transform-origin: 50% 0;
           transform-origin: 50% 0;
-  padding: 9px 10px;
+  padding: 10px 10px;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
-  border-radius: 10px;
 }
 
 @media (min-width: 800px) {
 
   .site-header__logo {
-    left: auto;
+    left: 0;
     -webkit-transform: translateX(0);
             transform: translateX(0);
+    padding: 10px 75rem 10px 20.5rem;
   }
 
   .site-header--dark .site-header__logo {
-    -webkit-transform: scale(.88);
-            transform: scale(.88);
+    left: 16%;
+    background-color: rgba(255,255,255, .4);
+    padding: 10px 10px;
+    -webkit-transform: scale(.755);
+            transform: scale(.755);
   }
 }
 
@@ -753,7 +756,7 @@ img {
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -788,7 +791,7 @@ img {
 }
 
 .page-section {
-  padding: .25rem 0;
+  padding: .25rem .25rem;
   text-align: center;
   margin-bottom: 1.25rem;
 
@@ -804,7 +807,13 @@ img {
 @media (min-width: 800px) {
 
   .page-section {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+  }
+
+  .page-section--get-to-know-me {
+    padding: 0rem 1rem;
+    background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
+    background-size: cover;
   }
 }
 
@@ -828,11 +837,6 @@ img {
   }
 }
 
-.page-section--get-to-know-me {
-  background-color: #eoe6ef;
-  padding: .25rem 1rem;
-}
-
 .generic-content-container{
   max-width: 800px;
   margin-right: auto;
@@ -843,19 +847,22 @@ img {
   font-weight: 300;
   line-height: 1.65;
   margin:0 0 1.8rem 0;
+  padding: 0 .5rem 0 .5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
 @media (min-width: 530px) {
 
   .generic-content-container p {
     font-size: 1.125rem;
+    padding: 0 .75rem 0 .75rem;
   }
 }
 
 .generic-content-container p a{
   font-weight: 700;
   text-decoration: none;
-  color: #ff9900;
+  color: #2f5572;
 }
 
 .row::after {
@@ -1110,7 +1117,10 @@ img {
   padding: 5px 8px;
   font-size: .9rem;
   background-color: rgba(47,85,114, .4);
-  border-radius: 5px;
+}
+
+.primary-nav a:hover {
+  border-bottom: 3px solid #ff9900;
 }
 
 @media (min-width: 800px) {
@@ -1236,14 +1246,16 @@ img {
   opacity: 0;
   -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: translateY(20%) scale(1.15);
+          transform: translateY(20%) scale(1.15);
 }
+
+/* Begin Styling Modifiers */
 
 .reveal-item--is-visible {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: translateY(0) scale(1);
+          transform: translateY(0) scale(1);
 }
 
 .modal {
@@ -1340,4 +1352,23 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.about-me {
+  background-color: rgba(255,255,255, .7);
+  padding: 0 .5rem 1px .5rem;
+  margin-top: 15rem;
+  border-radius: 20rem 20rem 0 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.about-me__photo {
+  border-radius: 124px;
+  overflow: hidden;
+  width: 248px;
+  height: 410px;
+  margin: 0 auto -200px auto;
+  position: relative;
+  top: -205px;
+  border: 6px solid rgba(255,255,255, .7);
 }

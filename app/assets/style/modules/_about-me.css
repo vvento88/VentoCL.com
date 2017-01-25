@@ -1,0 +1,18 @@
+.about-me {
+  background-color: rgba($mainWhite, .7);
+  padding: 0 .5rem 1px .5rem;
+  margin-top: 15rem;
+  border-radius: 20rem 20rem 0 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+
+  &__photo {
+    border-radius: 124px;
+    overflow: hidden;
+    width: 248px;
+    height: 410px;
+    margin: 0 auto -200px auto;
+    position: relative;
+    top: -205px;
+    border: 6px solid rgba($mainWhite, .7);
+  }
+}
