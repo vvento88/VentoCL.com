@@ -12,7 +12,7 @@
 
   &--get-to-know-me {
     padding: 0rem 1rem;
-    background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
+    background: url('assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
     background-size: cover;
   }
 }
