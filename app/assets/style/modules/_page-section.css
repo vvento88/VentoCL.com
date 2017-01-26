@@ -9,12 +9,17 @@
 
 @mixin atMedium {
   padding: 1.5rem 0;
+  }
 
   &--get-to-know-me {
-    padding: 0rem 1rem;
-    background: url('assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
-    background-size: cover;
-  }
+
+    @mixin atLarge {
+      &.lazyloaded {
+        padding: 0rem 1rem;
+        background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
+        background-size: cover;
+      }
+    }
 }
 
 /* Begin Styling Modifiers */

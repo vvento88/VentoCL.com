@@ -809,8 +809,11 @@ img {
   .page-section {
     padding: 1.5rem 0;
   }
+}
 
-  .page-section--get-to-know-me {
+@media (min-width: 1010px) {
+
+  .page-section--get-to-know-me.lazyloaded {
     padding: 0rem 1rem;
     background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
     background-size: cover;
@@ -1037,8 +1040,8 @@ img {
 @media (min-width: 800px) {
 
   .services:hover {
-    -webkit-transform: scale(1.03) ;
-            transform: scale(1.03) ;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 }
 
