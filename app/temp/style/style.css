@@ -484,6 +484,8 @@ img {
 
 /* rgba(255, 255, 255, 1) */
 
+/* rgba(255, 182, 71, 1) */
+
 .site-header {
   position: absolute;
   top: 0;
@@ -721,6 +723,10 @@ img {
 
 .headline--lightBlue {
   color: #70b3e6;
+}
+
+.headline--orange {
+  color: #ffb647;
 }
 
 /* Begin Styling Elements */

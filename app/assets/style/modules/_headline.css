@@ -29,6 +29,10 @@
     color: $lightBlue;
   }
 
+  &--orange {
+    color: $lightOrange;
+  }
+
 /* Begin Styling Elements */
   &__description {
     font-size: .9rem;
