@@ -1037,18 +1037,6 @@ img {
   border-radius: 4px;
   padding: 0 1.5rem 1px 1.5rem;
   margin-bottom: .5em;
-  -webkit-transition: -webkit-transform .01s;
-  transition: -webkit-transform .01s;
-  transition: transform .01s;
-  transition: transform .01s, -webkit-transform .01s;
-}
-
-@media (min-width: 800px) {
-
-  .services:hover {
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
-  }
 }
 
 /* Begin Styling Elements */
@@ -1366,18 +1354,23 @@ img {
 .about-me {
   background-color: rgba(255,255,255, .7);
   padding: 0 .5rem 1px .5rem;
-  margin-top: 15rem;
-  border-radius: 20rem 20rem 0 0;
+  margin-top: 12rem;
+  border-radius: 5rem 5rem 0 0;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
 .about-me__photo {
-  border-radius: 124px;
+  border-radius: 4rem;
   overflow: hidden;
-  width: 248px;
-  height: 410px;
-  margin: 0 auto -200px auto;
+  width: 150px;
+  height: 180px;
+  margin: 0 auto -150px auto;
   position: relative;
-  top: -205px;
+  top: -9rem;
   border: 6px solid rgba(255,255,255, .7);
+}
+
+.about-me__photo img {
+  -webkit-transform: translate(0,-10px);
+          transform: translate(0,-10px);
 }
