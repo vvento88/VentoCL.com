@@ -1376,5 +1376,26 @@ img {
 }
 
 .mc-field-group {
-  
+  text-align: center;
+  display: inline-block;
+  margin-top: .5rem;
+}
+
+.mc-field-group--input {
+  width: 75%;
+  border-radius: .25em;
+  border: 1px solid #2f5572;
+  padding: .25rem .25rem;
+}
+
+.mc-field-group--important-text {
+  color: #70b3e6;
+}
+
+.mc-field-group--asterisk {
+  color: #ff9900;
+}
+
+.mc-field-group--btn {
+  margin-top: 1rem;
 }
