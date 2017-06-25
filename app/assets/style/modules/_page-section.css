@@ -2,6 +2,7 @@
   padding: .25rem .25rem;
   text-align: center;
   margin-bottom: 1.25rem;
+  background: $mainWhite;
 
 @mixin atSmall {
   padding: .5rem 0;
@@ -16,7 +17,7 @@
     @mixin atLarge {
       &.lazyloaded {
         padding: 0rem 1rem;
-        background: url('/assets/images/MountainBackdrop_hi-dpi.jpg') top center no-repeat;
+        background: url('/assets/images/background/Ian-Baldwin-82167.jpg') center center no-repeat fixed;
         background-size: cover;
       }
     }
