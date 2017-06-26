@@ -460,9 +460,21 @@ template {
   display: none;
 }
 
+/* rgba(47, 85, 114, 1) */
+
+/* rgba(120, 113, 113, 1) */
+
+/* rgba(255, 153, 0, 1) */
+
+/* rgba(112, 179, 230, 1) */
+
+/* rgba(255, 255, 255, 1) */
+
+/* rgba(255, 182, 71, 1) */
+
 /*
 html {
-  background: url('/assets/images/background/Ian-Baldwin-82167.jpg') center center fixed no-repeat;
+ background: url('/assets/images/background/Ian-Baldwin-82167.jpg') center center fixed no-repeat;
 }
 */
 
@@ -479,18 +491,6 @@ img {
 * {
   box-sizing: border-box;
 }
-
-/* rgba(47, 85, 114, 1) */
-
-/* rgba(120, 113, 113, 1) */
-
-/* rgba(255, 153, 0, 1) */
-
-/* rgba(112, 179, 230, 1) */
-
-/* rgba(255, 255, 255, 1) */
-
-/* rgba(255, 182, 71, 1) */
 
 .site-header {
   position: absolute;
@@ -828,7 +828,7 @@ img {
 
   .page-section--get-to-know-me.lazyloaded {
     padding: 0rem 1rem;
-    background: url('/assets/images/background/ian-baldwin-82167.jpg') top center no-repeat fixed;
+    background: url('/assets/images/background/ian-baldwin-82167.jpg') center center no-repeat fixed;
     background-size: cover;
   }
 }
