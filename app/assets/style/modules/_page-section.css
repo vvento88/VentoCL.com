@@ -1,7 +1,5 @@
 .page-section {
-  padding: .25rem .25rem;
   text-align: center;
-  margin-bottom: 1.25rem;
   background: $mainWhite;
 
 @mixin atSmall {
@@ -12,34 +10,29 @@
   padding: 1.5rem 0;
   }
 
+/* Begin Styling Modifiers */
+  &--hero {
+    &.lazyloaded {
+      height: 100vh;
+      padding: 0rem 1rem;
+      background: url('/assets/images/background/ian-baldwin-82167.jpg') top center no-repeat fixed;
+      background-size: cover;
+    }
+  }
 
   &--get-to-know-me {
 
-    @mixin atLarge {
-      &.lazyloaded {
-        padding: 0rem 1rem;
-        background: url('/assets/images/background/ian-baldwin-82167.jpg') center center no-repeat fixed;
-        background-size: cover;
-      }
+    &.lazyloaded {
+      padding: 0rem 1rem;
+      background: url('/assets/images/background/Ian-Baldwin-Unsplash.jpg') top center no-repeat fixed;
+      background-size: cover;
     }
-}
+  }
 
-
-
-/* Begin Styling Modifiers */
   &--blue {
     background-color: $mainBlue;
     color: #FFF;
   }
 
-  &--modal {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: $mainBlue;
-
-    @mixin atSmall {
-      margin-bottom: -1.25rem;
-    }
-  }
 
 }

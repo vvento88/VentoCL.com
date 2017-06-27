@@ -10,6 +10,12 @@
   visibility: hidden;
   transform: scale(1.2);
   transition: all .3s ease-out;
+  color: $mainBlue;
+  text-align: center;
+
+  @mixin atSmall {
+    margin-bottom: -1.25rem;
+  }
 
   /* Begin Styling modifiers */
   &--is-visible {
@@ -22,8 +28,16 @@
   &__inner {
     position: absolute;
     width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+
+    @mixin atLarge {
+      top: 25%;
+      right: 50%;
+      transform: translateX(50%);
+    }
+
   }
 
   &__description {
@@ -35,8 +49,8 @@
 
   &__close {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: .125em;
+    right: 2em;
     font-size: 2rem;
     transform: scaleX(1.2);
     transform-origin: 100% 0;

@@ -52,7 +52,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass('is-current-link');
           }
         },
-        offset: '15%'
+        offset: '25%'
       });
 
       new Waypoint({
