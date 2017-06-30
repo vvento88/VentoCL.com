@@ -70,8 +70,8 @@
 
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)('.feature-item, .services'), '90%');
-	new _RevealOnScroll2.default((0, _jquery2.default)('.headline, .generic-content-container'), '75%');
-	new _RevealOnScroll2.default((0, _jquery2.default)('.about-me, .about-me__photo'), '60%');
+	new _RevealOnScroll2.default((0, _jquery2.default)('.headline, .generic-content-container'), '70%');
+	new _RevealOnScroll2.default((0, _jquery2.default)('.about-me, .about-me__photo'), '65%');
 	var stickyHeader = new _StickyHeader2.default();
 	var modal = new _Modal2.default();
 
@@ -11259,7 +11259,7 @@
 	              (0, _jquery2.default)(matchingHeaderLink).addClass('is-current-link');
 	            }
 	          },
-	          offset: '25%'
+	          offset: '30%'
 	        });
 
 	        new Waypoint({

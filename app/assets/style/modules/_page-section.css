@@ -12,11 +12,16 @@
 
 /* Begin Styling Modifiers */
   &--hero {
+
     &.lazyloaded {
       height: 100vh;
       padding: 0rem 1rem;
-      background: url('/assets/images/background/ian-baldwin-82167.jpg') top center no-repeat fixed;
+      background: url('/assets/images/background/filip-mroz-235735.jpg') top center no-repeat fixed;
       background-size: cover;
+    }
+
+    @mixin atMedium {
+      margin-top: 4.25rem;
     }
   }
 

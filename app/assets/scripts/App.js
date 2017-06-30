@@ -6,7 +6,7 @@ import Modal from './modules/Modal';
 
 var mobileMenu = new MobileMenu();
 new RevealOnScroll($('.feature-item, .services'), '90%');
-new RevealOnScroll($('.headline, .generic-content-container'), '75%');
-new RevealOnScroll($('.about-me, .about-me__photo'), '60%');
+new RevealOnScroll($('.headline, .generic-content-container'), '70%');
+new RevealOnScroll($('.about-me, .about-me__photo'), '65%');
 var stickyHeader = new StickyHeader();
 var modal = new Modal();

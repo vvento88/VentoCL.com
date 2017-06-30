@@ -550,7 +550,7 @@ img {
     left: -5rem;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    padding: 10px 75rem 10px 20.5rem;
+    padding: 10px 10rem 10px 20.5rem;
   }
 
   .site-header--dark .site-header__logo {
@@ -724,7 +724,7 @@ img {
 /* Begin Styling Modifiers*/
 
 .headline--first {
-  padding-top: 60px;
+  padding-top: 8em;
   margin-bottom: 0;
 }
 
@@ -837,8 +837,15 @@ img {
 .page-section--hero.lazyloaded {
   height: 100vh;
   padding: 0rem 1rem;
-  background: url('/assets/images/background/ian-baldwin-82167.jpg') top center no-repeat fixed;
+  background: url('/assets/images/background/filip-mroz-235735.jpg') top center no-repeat fixed;
   background-size: cover;
+}
+
+@media (min-width: 800px) {
+
+  .page-section--hero {
+    margin-top: 4.25rem;
+  }
 }
 
 .page-section--get-to-know-me.lazyloaded {
@@ -856,6 +863,8 @@ img {
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
+
+  
 }
 
 .generic-content-container p{
@@ -872,12 +881,6 @@ img {
     font-size: 1.125rem;
     padding: 0 .75rem 0 .75rem;
   }
-}
-
-.generic-content-container p a{
-  font-weight: 700;
-  text-decoration: none;
-  color: #2f5572;
 }
 
 .row::after {
@@ -1424,116 +1427,4 @@ img {
 
 .mc-field-group--btn {
   margin-top: 1rem;
-}
-
-.rw--wrapper {
-  padding-top: 3em;
-}
-
-@media (min-width: 800px) {
-
-  .rw--wrapper {
-    padding-top: 4rem;
-  }
-}
-
-@media (min-width: 1010px) {
-
-  .rw--wrapper {
-    padding-top: 8rem;
-  }
-}
-
-.rw--sentence {
-  position: relative;
-}
-
-.rw--sentence span {
-  padding: 0 2.75em 0 2em;
-}
-
-@media (min-width: 1010px) {
-
-  .rw--sentence span {
-    padding: 0 3em 0 1.25em;
-  }
-}
-
-.rw--words {
-  display: inline;
-  text-align: center;
-}
-
-.rw--words span {
-  position: absolute;
-  -webkit-transform: translateX(-46%);
-          transform: translateX(-46%);
-  opacity: 0;
-  overflow: hidden;
-  width: 100%;
-  color: #ffb647;
-  -webkit-animation: rotateWordsFirst 15s linear infinite 0s;
-          animation: rotateWordsFirst 15s linear infinite 0s;
-}
-
-.rw--words span:nth-child(2) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-}
-
-.rw--words span:nth-child(3) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-}
-
-@-webkit-keyframes rotateWordsFirst {
-  0% {
-    opacity: 1;
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    height: 0px;
-  }
-
-  10% {
-    opacity: 1;
-    height: 60px;
-  }
-
-  25% {
-    opacity: .2;
-  }
-
-  30% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes rotateWordsFirst {
-  0% {
-    opacity: 1;
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    height: 0px;
-  }
-
-  10% {
-    opacity: 1;
-    height: 60px;
-  }
-
-  25% {
-    opacity: .2;
-  }
-
-  30% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
 }
