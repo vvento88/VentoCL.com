@@ -864,13 +864,13 @@ img {
   margin-right: auto;
   margin-left: auto;
 
-  
+
 }
 
 .generic-content-container p{
   font-weight: 300;
   line-height: 1.65;
-  margin:0 0 1.8rem 0;
+  margin:1.8rem 0 1.8rem 0;
   padding: 0 .5rem 0 .5rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
@@ -1308,10 +1308,10 @@ img {
   top: 10%;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 530px) {
 
   .modal__inner {
-    top: 25%;
+    top: 20%;
     right: 50%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
@@ -1328,7 +1328,7 @@ img {
 .modal__close {
   position: absolute;
   top: .125em;
-  right: 2em;
+  right: 2rem;
   font-size: 2rem;
   -webkit-transform: scaleX(1.2);
           transform: scaleX(1.2);

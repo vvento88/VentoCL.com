@@ -32,11 +32,12 @@
     margin-right: auto;
     top: 10%;
 
-    @mixin atLarge {
-      top: 25%;
+    @mixin atSmall {
+      top: 20%;
       right: 50%;
       transform: translateX(50%);
     }
+
 
   }
 
@@ -50,7 +51,7 @@
   &__close {
     position: absolute;
     top: .125em;
-    right: 2em;
+    right: 2rem;
     font-size: 2rem;
     transform: scaleX(1.2);
     transform-origin: 100% 0;
